@@ -1,0 +1,41 @@
+flowchart TB
+    CUST(["👤 Customer"])
+
+    subgraph L1["1 · Intake channels"]
+        direction LR
+        WF["Web form"] ~~~ EM["Mock email inbox"] ~~~ CT["Chat"]
+    end
+
+    subgraph L2["2 · FastAPI backend"]
+        direction LR
+        TA["Ticket API<br/>CRUD + Auth/RBAC"] --> DD["Dedup +<br/>SLA timers"] --> TR["Triage<br/>classify · priority · route"] --> GR{"Guardrails<br/>PII · injection · confidence"}
+        GR -->|safe & confident| RAG["RAG answer<br/>FAQ retrieval + citations"]
+        GR -->|risky / unsure| ESC["⚠ Escalate to<br/>Team Lead"]
+    end
+
+    subgraph L3["3 · React frontend"]
+        direction LR
+        Q["Agent ticket queue"] ~~~ TD["Ticket detail<br/>approve / edit / reject"] ~~~ AD["Admin settings<br/>+ reports"]
+    end
+
+    subgraph L4["4 · Data layer"]
+        direction LR
+        DB[("PostgreSQL / SQLite<br/>tickets · users · SLA · audit log")] ~~~ VX[("Retrieval index<br/>versioned FAQ corpus")]
+    end
+
+    EXT["LLM / embedding API<br/>(redacted text only)"]
+    MS["Microsoft Lists adapter<br/>(optional, sandbox)"]
+    HU(["🧑‍💼 Support agent<br/>HUMAN APPROVAL"])
+
+    CUST --> L1 --> TA
+    RAG --> L3
+    ESC --> L3
+    L3 --> HU -->|approved reply only| CUST
+    L2 <--> L4
+    RAG <--> EXT
+    TA -.-> MS
+
+    classDef human fill:#FFE8CC,stroke:#D9480F,stroke-width:2px
+    classDef warn fill:#FFE3E3,stroke:#C92A2A
+    class HU,CUST human
+    class ESC warn

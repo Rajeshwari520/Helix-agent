@@ -1,0 +1,46 @@
+{
+  "dataset": "data/kgit/tickets.csv (50 synthetic KGIT tickets)",
+  "method": "keyword rule-based routing",
+  "results": [
+    {
+      "task": "Category / team",
+      "method": "Majority class",
+      "accuracy": 0.2,
+      "macro_f1": 0.067
+    },
+    {
+      "task": "Category / team",
+      "method": "Rule-based",
+      "accuracy": 0.98,
+      "macro_f1": 0.98
+    },
+    {
+      "task": "Priority",
+      "method": "Majority class",
+      "accuracy": 0.34,
+      "macro_f1": 0.127
+    },
+    {
+      "task": "Priority",
+      "method": "Rule-based",
+      "accuracy": 0.98,
+      "macro_f1": 0.985
+    },
+    {
+      "task": "Escalation",
+      "method": "Majority class",
+      "accuracy": 0.84,
+      "macro_f1": 0.457
+    },
+    {
+      "task": "Escalation",
+      "method": "Rule-based",
+      "accuracy": 1.0,
+      "macro_f1": 1.0
+    }
+  ],
+  "escalation_recall": 1.0,
+  "escalation_precision": 1.0,
+  "rules_on_unseen_wording_accuracy": 0.689,
+  "rules_on_unseen_wording_macro_f1": 0.692
+}

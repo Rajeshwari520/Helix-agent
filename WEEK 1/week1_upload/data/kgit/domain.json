@@ -1,0 +1,59 @@
+{
+  "title": "KGIT helpdesk (categories ASSUMED - confirm with mentor)",
+  "description": "Assumed helpdesk for an IT services and training organisation: IT support, access requests, training/courses, HR & admin, billing & finance. Synthetic prototype data - replace categories and teams with KGIT's real ones once the mentor confirms them.",
+  "teams": {
+    "IT Support": "IT Service Desk",
+    "Access & Accounts": "Identity & Access Team",
+    "Training & Courses": "Learning Team",
+    "HR & Admin": "HR & Admin Team",
+    "Billing & Finance": "Finance Team"
+  },
+  "extra_signals": [
+    {
+      "name": "many users affected",
+      "points": 3,
+      "patterns": [
+        "\\b(all|every|whole|entire)( of)?( the)? (team|teams|office|floor|staff|employees|users|trainees|students|batch|department)\\b",
+        "(no one|nobody) (can|is able to) (work|access|log ?in|connect|use|send)",
+        "\\beveryone\\b"
+      ]
+    },
+    {
+      "name": "hard deadline today / client impact",
+      "points": 1.5,
+      "patterns": [
+        "(exam|assessment|deadline|go-live|release|client (demo|call|meeting|presentation))[^.]{0,30}\\b(today|tomorrow|in \\d+ (hours?|minutes?))",
+        "\\bproduction\\b"
+      ]
+    },
+    {
+      "name": "salary or payment not received",
+      "points": 3,
+      "patterns": [
+        "salary (not|has not|hasn't|was not) (been )?(credited|received|paid)",
+        "not received (my )?(salary|stipend|payment)",
+        "not received (my )?\\w* ?salary",
+        "salary (for \\w+ )?(is |has )?(not|delayed)"
+      ]
+    },
+    {
+      "name": "access removal for a leaver (security)",
+      "points": 3,
+      "patterns": [
+        "(left|leaving|resigned|exit)[^.]{0,60}remove (his|her|their)? ?access",
+        "remove (his|her|their) access",
+        "revoke (his|her|their)? ?access",
+        "(revoke|remove|disable)[^.]{0,60}access[^.]{0,60}(left|leaving|resigned)",
+        "(left|leaving|resigned)[^.]{0,60}(revoke|remove|disable)[^.]{0,40}access"
+      ]
+    },
+    {
+      "name": "training delivery failing for a batch",
+      "points": 3,
+      "patterns": [
+        "missed (\\d+|two|three|several|many) (sessions|classes)",
+        "(session|class)[^.]{0,30}cancelled without notice"
+      ]
+    }
+  ]
+}

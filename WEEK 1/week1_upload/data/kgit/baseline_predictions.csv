@@ -1,0 +1,51 @@
+ticket_id,category,pred_category,pred_team,priority,pred_priority,needs_escalation,pred_escalation
+TCK-0001,IT Support,IT Support,IT Service Desk,Critical,Critical,Yes,Yes
+TCK-0002,IT Support,IT Support,IT Service Desk,Medium,Medium,No,No
+TCK-0003,IT Support,IT Support,IT Service Desk,Medium,Medium,No,No
+TCK-0004,IT Support,IT Support,IT Service Desk,Low,Low,No,No
+TCK-0005,IT Support,IT Support,IT Service Desk,Low,Low,No,No
+TCK-0006,IT Support,IT Support,IT Service Desk,Critical,Critical,Yes,Yes
+TCK-0007,IT Support,IT Support,IT Service Desk,Medium,Medium,No,No
+TCK-0008,IT Support,IT Support,IT Service Desk,High,High,No,No
+TCK-0009,IT Support,IT Support,IT Service Desk,Low,Low,No,No
+TCK-0010,IT Support,IT Support,IT Service Desk,High,High,No,No
+TCK-0011,Access & Accounts,Access & Accounts,Identity & Access Team,Medium,Low,No,No
+TCK-0012,Access & Accounts,Access & Accounts,Identity & Access Team,Medium,Medium,No,No
+TCK-0013,Access & Accounts,Access & Accounts,Identity & Access Team,Low,Low,No,No
+TCK-0014,Access & Accounts,Access & Accounts,Identity & Access Team,Medium,Medium,No,No
+TCK-0015,Access & Accounts,Access & Accounts,Identity & Access Team,High,High,No,No
+TCK-0016,Access & Accounts,Access & Accounts,Identity & Access Team,Critical,Critical,Yes,Yes
+TCK-0017,Access & Accounts,Access & Accounts,Identity & Access Team,High,High,No,No
+TCK-0018,Access & Accounts,Access & Accounts,Identity & Access Team,Low,Low,No,No
+TCK-0019,Access & Accounts,Access & Accounts,Identity & Access Team,High,High,No,No
+TCK-0020,Access & Accounts,Access & Accounts,Identity & Access Team,High,High,Yes,Yes
+TCK-0021,Training & Courses,Training & Courses,Learning Team,Medium,Medium,No,No
+TCK-0022,Training & Courses,Training & Courses,Learning Team,Medium,Medium,No,No
+TCK-0023,Training & Courses,Training & Courses,Learning Team,Low,Low,No,No
+TCK-0024,Training & Courses,Training & Courses,Learning Team,High,High,No,No
+TCK-0025,Training & Courses,Training & Courses,Learning Team,Low,Low,No,No
+TCK-0026,Training & Courses,Training & Courses,Learning Team,High,High,No,No
+TCK-0027,Training & Courses,Training & Courses,Learning Team,Medium,Medium,No,No
+TCK-0028,Training & Courses,Training & Courses,Learning Team,Low,Low,No,No
+TCK-0029,Training & Courses,Training & Courses,Learning Team,Medium,Medium,No,No
+TCK-0030,Training & Courses,Training & Courses,Learning Team,Medium,Medium,Yes,Yes
+TCK-0031,HR & Admin,HR & Admin,HR & Admin Team,High,High,No,No
+TCK-0032,HR & Admin,HR & Admin,HR & Admin Team,Medium,Medium,No,No
+TCK-0033,HR & Admin,HR & Admin,HR & Admin Team,Low,Low,No,No
+TCK-0034,HR & Admin,HR & Admin,HR & Admin Team,Low,Low,No,No
+TCK-0035,HR & Admin,HR & Admin,HR & Admin Team,Medium,Medium,No,No
+TCK-0036,HR & Admin,HR & Admin,HR & Admin Team,Low,Low,No,No
+TCK-0037,HR & Admin,HR & Admin,HR & Admin Team,High,High,Yes,Yes
+TCK-0038,HR & Admin,HR & Admin,HR & Admin Team,Low,Low,No,No
+TCK-0039,HR & Admin,HR & Admin,HR & Admin Team,Medium,Medium,No,No
+TCK-0040,HR & Admin,HR & Admin,HR & Admin Team,Low,Low,No,No
+TCK-0041,Billing & Finance,Billing & Finance,Finance Team,High,High,No,No
+TCK-0042,Billing & Finance,Billing & Finance,Finance Team,Low,Low,No,No
+TCK-0043,Billing & Finance,Billing & Finance,Finance Team,High,High,No,No
+TCK-0044,Billing & Finance,Training & Courses,Learning Team,Medium,Medium,No,No
+TCK-0045,Billing & Finance,Billing & Finance,Finance Team,Medium,Medium,No,No
+TCK-0046,Billing & Finance,Billing & Finance,Finance Team,Low,Low,No,No
+TCK-0047,Billing & Finance,Billing & Finance,Finance Team,Critical,Critical,Yes,Yes
+TCK-0048,Billing & Finance,Billing & Finance,Finance Team,Critical,Critical,Yes,Yes
+TCK-0049,Billing & Finance,Billing & Finance,Finance Team,Low,Low,No,No
+TCK-0050,Billing & Finance,Billing & Finance,Finance Team,Medium,Medium,No,No

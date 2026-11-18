@@ -1,0 +1,51 @@
+ticket_id,created_at,channel,customer_id,subject,body,category,priority,assigned_team,needs_escalation
+TCK-0001,2026-11-06 04:55,chat,EMP-8629,VPN down for whole team,VPN is not connecting for the entire team since 9 AM. Nobody can access the client servers.,IT Support,Critical,IT Service Desk,Yes
+TCK-0002,2026-11-06 04:32,chat,EMP-4111,Laptop very slow,My office laptop takes 10 minutes to start and every application is very slow.,IT Support,Medium,IT Service Desk,No
+TCK-0003,2026-11-03 08:51,chat,EMP-8794,Outlook not syncing,Outlook is not syncing new emails since yesterday. I can only see old mails.,IT Support,Medium,IT Service Desk,No
+TCK-0004,2026-11-08 02:39,email,EMP-2542,Install VS Code and Python,Please install VS Code and Python 3.11 on my laptop for the new project.,IT Support,Low,IT Service Desk,No
+TCK-0005,2026-11-06 03:19,email,EMP-2485,Printer not working,The printer on the 2nd floor shows offline and is not printing.,IT Support,Low,IT Service Desk,No
+TCK-0006,2026-11-07 02:51,chat,EMP-1686,Clicked a suspicious link,I clicked a link in a phishing email asking for my password. I am worried my laptop is infected.,IT Support,Critical,IT Service Desk,Yes
+TCK-0007,2026-11-07 17:25,web_form,EMP-3580,Wi-Fi keeps disconnecting,The Wi-Fi in training lab 3 keeps disconnecting every few minutes during sessions.,IT Support,Medium,IT Service Desk,No
+TCK-0008,2026-11-08 00:00,chat,EMP-2034,Laptop blue screen,My laptop crashes with a blue screen every 10 minutes. I have a client demo today and cannot work.,IT Support,High,IT Service Desk,No
+TCK-0009,2026-11-02 00:02,email,EMP-4963,Need a second monitor,Can I get an extra monitor for my desk? It will help with coding work.,IT Support,Low,IT Service Desk,No
+TCK-0010,2026-11-07 18:01,web_form,EMP-6345,Project files missing,All project files are missing from the shared drive folder. I cannot continue my work.,IT Support,High,IT Service Desk,No
+TCK-0011,2026-11-06 01:37,email,EMP-9505,Forgot LMS password,I forgot my LMS portal password and the reset mail is not coming.,Access & Accounts,Medium,Identity & Access Team,No
+TCK-0012,2026-11-03 20:40,web_form,EMP-9188,Account locked,My account got locked after entering the wrong password 3 times. Please unlock.,Access & Accounts,Medium,Identity & Access Team,No
+TCK-0013,2026-11-01 10:42,email,EMP-8492,GitHub repository access,Please give me access to the company GitHub organisation for the Helix project repo.,Access & Accounts,Low,Identity & Access Team,No
+TCK-0014,2026-11-08 08:17,web_form,EMP-2363,New joiner access,"A new intern joins on Monday. Please create her email, LMS and laptop login.",Access & Accounts,Medium,Identity & Access Team,No
+TCK-0015,2026-11-08 22:16,web_form,EMP-4762,Lost phone with authenticator,"I lost my phone and cannot get the MFA code, so I cannot log in to any system.",Access & Accounts,High,Identity & Access Team,No
+TCK-0016,2026-11-06 20:18,email,EMP-2150,Unknown login on my account,I got an alert of a login to my account from another country. I did not do this.,Access & Accounts,Critical,Identity & Access Team,Yes
+TCK-0017,2026-11-07 09:49,email,EMP-7560,Remove access for leaver,"An employee left today. Please remove his access to email, VPN and GitHub immediately.",Access & Accounts,High,Identity & Access Team,No
+TCK-0018,2026-11-02 12:54,web_form,EMP-7332,Jira access request,I need Jira access to update my project tasks.,Access & Accounts,Low,Identity & Access Team,No
+TCK-0019,2026-11-02 02:01,chat,EMP-1008,Password expired,My password expired and now I cannot log in to the VPN from home.,Access & Accounts,High,Identity & Access Team,No
+TCK-0020,2026-11-03 15:13,email,EMP-8700,Delete my data,I completed my training last year. Please delete my account and all my personal data.,Access & Accounts,High,Identity & Access Team,Yes
+TCK-0021,2026-11-05 09:45,web_form,EMP-7877,Course video not loading,"Module 4 videos in the LMS are not loading, it keeps buffering.",Training & Courses,Medium,Learning Team,No
+TCK-0022,2026-11-02 03:36,chat,EMP-4252,Certificate not received,I completed the Data Science course 2 weeks ago but have not received my certificate.,Training & Courses,Medium,Learning Team,No
+TCK-0023,2026-11-09 16:43,web_form,EMP-6519,Change batch timing,Can I move from the morning batch to the evening batch?,Training & Courses,Low,Learning Team,No
+TCK-0024,2026-11-02 07:19,web_form,EMP-1248,Exam portal not opening,The assessment portal is not opening and my exam starts in 1 hour.,Training & Courses,High,Learning Team,No
+TCK-0025,2026-11-05 17:48,email,EMP-3205,Need course slides,Please share the slides for last week's Machine Learning session.,Training & Courses,Low,Learning Team,No
+TCK-0026,2026-11-04 00:45,email,EMP-1179,Trainer did not come,The trainer did not come for today's session and the whole batch has been waiting for an hour.,Training & Courses,High,Learning Team,No
+TCK-0027,2026-11-02 00:29,web_form,EMP-3911,Marks shown wrong,My assessment marks are shown as 45 but I scored 72 in the answer review.,Training & Courses,Medium,Learning Team,No
+TCK-0028,2026-11-08 15:35,email,EMP-8330,How to enroll,How can I enroll for the Python Full Stack course?,Training & Courses,Low,Learning Team,No
+TCK-0029,2026-11-06 19:12,chat,EMP-3145,Session recording missing,The recording of yesterday's live session is missing from the LMS.,Training & Courses,Medium,Learning Team,No
+TCK-0030,2026-11-05 20:41,web_form,EMP-2908,Complaint about trainer,The trainer was rude and insulted students in class. This is unacceptable.,Training & Courses,Medium,Learning Team,Yes
+TCK-0031,2026-11-05 14:26,email,EMP-1007,Salary not credited,My salary has not been credited this month. Today is the 5th.,HR & Admin,High,HR & Admin Team,No
+TCK-0032,2026-11-04 06:55,chat,EMP-5983,Leave not approved,My leave request for next Friday is still pending in the HR portal.,HR & Admin,Medium,HR & Admin Team,No
+TCK-0033,2026-11-01 14:13,email,EMP-7459,Experience letter,I need an experience letter for my visa application.,HR & Admin,Low,HR & Admin Team,No
+TCK-0034,2026-11-07 19:41,chat,EMP-2643,Lost ID card,I lost my office ID card. How do I get a new one?,HR & Admin,Low,HR & Admin Team,No
+TCK-0035,2026-11-01 19:09,email,EMP-8234,Payslip download error,I get an error when I try to download my October payslip.,HR & Admin,Medium,HR & Admin Team,No
+TCK-0036,2026-11-04 03:00,chat,EMP-6389,AC not working,The AC in training room 2 is not cooling.,HR & Admin,Low,HR & Admin Team,No
+TCK-0037,2026-11-10 05:18,web_form,EMP-2202,Harassment complaint,I want to report harassment by a colleague. Please treat this confidentially.,HR & Admin,High,HR & Admin Team,Yes
+TCK-0038,2026-11-02 04:05,email,EMP-4981,Update bank details,I changed my bank. How do I update my account for salary credit?,HR & Admin,Low,HR & Admin Team,No
+TCK-0039,2026-11-01 12:38,web_form,EMP-7089,Reimbursement pending,My travel reimbursement claim has been pending for 2 months.,HR & Admin,Medium,HR & Admin Team,No
+TCK-0040,2026-11-08 00:29,email,EMP-8925,Holiday list,Where can I find the holiday list for 2027?,HR & Admin,Low,HR & Admin Team,No
+TCK-0041,2026-11-10 06:36,email,EMP-7325,Course fee paid twice,I was charged twice for the course fee. Please refund one payment.,Billing & Finance,High,Finance Team,No
+TCK-0042,2026-11-03 07:40,email,EMP-6092,Need fee receipt,Please send the fee receipt with GST details for my course payment.,Billing & Finance,Low,Finance Team,No
+TCK-0043,2026-11-03 19:52,chat,EMP-5087,"Payment failed, money deducted","Payment failed on the portal but 25,000 was deducted from my account.",Billing & Finance,High,Finance Team,No
+TCK-0044,2026-11-09 02:12,email,EMP-4220,Refund for cancelled course,I cancelled my course enrollment 10 days ago but the refund has not come.,Billing & Finance,Medium,Finance Team,No
+TCK-0045,2026-11-08 16:24,web_form,EMP-2286,Wrong invoice for client,The invoice for our project shows 3 developers but only 2 were assigned. Please correct it.,Billing & Finance,Medium,Finance Team,No
+TCK-0046,2026-11-05 20:03,email,EMP-2786,EMI option,Is there an EMI option for the 6-month course fee?,Billing & Finance,Low,Finance Team,No
+TCK-0047,2026-11-01 18:32,web_form,EMP-4906,Legal notice on invoice,If the disputed invoice is not cancelled this week we will send a legal notice.,Billing & Finance,Critical,Finance Team,Yes
+TCK-0048,2026-11-09 06:45,web_form,EMP-5210,Unknown charge,There is a charge from KGIT on my card that I do not recognise. Is this fraud?,Billing & Finance,Critical,Finance Team,Yes
+TCK-0049,2026-11-05 20:52,chat,EMP-9044,Change billing address,Please change the billing address on our company invoices.,Billing & Finance,Low,Finance Team,No
+TCK-0050,2026-11-04 12:33,email,EMP-2126,Vendor payment pending,Our vendor payment for September is still pending. Please update the status.,Billing & Finance,Medium,Finance Team,No

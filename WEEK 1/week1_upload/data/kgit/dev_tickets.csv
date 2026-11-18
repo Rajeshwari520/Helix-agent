@@ -1,0 +1,51 @@
+ticket_id,subject,body,category,priority,needs_escalation
+DEV-001,Monitor flickering,My second screen keeps flickering and turns black every few minutes.,IT Support,Medium,No
+DEV-002,Cannot connect to Wi-Fi,My laptop does not detect the office Wi-Fi at all since this morning.,IT Support,High,No
+DEV-003,Need Docker installed,Please install Docker Desktop on my system for the training project.,IT Support,Low,No
+DEV-004,Keyboard keys not working,Some keys on my laptop keyboard stopped working.,IT Support,Medium,No
+DEV-005,Server down,Our project server is completely down and the whole team is blocked.,IT Support,Critical,Yes
+DEV-006,Strange popup on laptop,A popup says my laptop is infected with a virus and asks me to call a number.,IT Support,Critical,Yes
+DEV-007,Teams audio issue,Nobody can hear me in Teams meetings even though my mic works.,IT Support,Medium,No
+DEV-008,Laptop overheating,The laptop gets very hot and shuts down by itself.,IT Support,High,No
+DEV-009,Printer paper jam,The printer near reception has a paper jam.,IT Support,Low,No
+DEV-010,Outlook calendar not updating,Meeting invites are not showing in my Outlook calendar.,IT Support,Medium,No
+DEV-011,Reset password please,I can't remember my password for the employee portal.,Access & Accounts,Medium,No
+DEV-012,Need Confluence permission,Please give me edit permission on the Confluence project space.,Access & Accounts,Low,No
+DEV-013,Locked out,I tried my password too many times and now I am locked out.,Access & Accounts,Medium,No
+DEV-014,MFA not working,The authenticator code is always rejected when I sign in.,Access & Accounts,High,No
+DEV-015,Access for new trainee,A new trainee joins tomorrow and needs an LMS login.,Access & Accounts,Medium,No
+DEV-016,Suspicious login alert,I received a sign-in alert from a device I don't own. I did not do this.,Access & Accounts,Critical,Yes
+DEV-017,Remove access,Please revoke the GitHub and email access of an intern who left yesterday.,Access & Accounts,High,No
+DEV-018,AWS console access,I need read access to the AWS console for my assignment.,Access & Accounts,Low,No
+DEV-019,Wrong name in directory,My name is spelled wrong in the company directory.,Access & Accounts,Low,No
+DEV-020,Close my account,Please close my old account and erase my personal information.,Access & Accounts,High,Yes
+DEV-021,Quiz not submitting,The module 3 quiz does not submit and shows an error.,Training & Courses,Medium,No
+DEV-022,Certificate name wrong,My course certificate shows the wrong spelling of my name.,Training & Courses,Low,No
+DEV-023,Switch to evening batch,I want to move to the evening batch of the AI/ML course.,Training & Courses,Low,No
+DEV-024,Class recording not available,Yesterday's live class recording is not uploaded yet.,Training & Courses,Medium,No
+DEV-025,Assignment deadline extension,Can I get two more days for the Java assignment? I was sick.,Training & Courses,Low,No
+DEV-026,Final exam link not working,The final assessment link shows an error and the exam starts in 30 minutes.,Training & Courses,High,No
+DEV-027,Course syllabus,Where can I find the syllabus for the Cloud Computing course?,Training & Courses,Low,No
+DEV-028,Progress not updating,My course progress is stuck at 40% even after finishing modules.,Training & Courses,Medium,No
+DEV-029,Trainer absent again,The trainer has missed three sessions this month and the batch is falling behind.,Training & Courses,High,No
+DEV-030,Need practice materials,Please share practice questions for the Data Science module.,Training & Courses,Low,No
+DEV-031,Salary delay,I have not received my salary for November yet.,HR & Admin,High,No
+DEV-032,Leave balance wrong,My leave balance in the HR portal is showing 2 days less.,HR & Admin,Medium,No
+DEV-033,Relieving letter,I need my relieving letter for my new job.,HR & Admin,Low,No
+DEV-034,New ID card,My ID card is damaged and the access door does not read it.,HR & Admin,Low,No
+DEV-035,Payslip missing,My October payslip is not visible in the portal.,HR & Admin,Medium,No
+DEV-036,Water leakage,There is water leaking from the ceiling in the training hall.,HR & Admin,Medium,No
+DEV-037,Discrimination complaint,I feel I am being discriminated against by my team lead. Please help confidentially.,HR & Admin,High,Yes
+DEV-038,Travel claim,My travel expense claim from October has not been reimbursed.,HR & Admin,Medium,No
+DEV-039,Address proof letter,Please provide an address proof letter from HR.,HR & Admin,Low,No
+DEV-040,Parking pass,How do I get a parking pass for my bike?,HR & Admin,Low,No
+DEV-041,Fee deducted twice,The course fee was debited twice from my bank account.,Billing & Finance,High,No
+DEV-042,GST invoice,Please send a GST invoice for the fee I paid.,Billing & Finance,Low,No
+DEV-043,Refund pending,I cancelled within the allowed period but my refund is still pending.,Billing & Finance,Medium,No
+DEV-044,Payment failed,The payment page failed but money was taken from my account.,Billing & Finance,High,No
+DEV-045,Instalment plan,Can I pay the course fee in three instalments?,Billing & Finance,Low,No
+DEV-046,Invoice wrong amount,The invoice shows 50000 but our agreed amount was 45000.,Billing & Finance,Medium,No
+DEV-047,Unknown debit,I see a debit from KGIT on my credit card that I did not authorise. Is it fraud?,Billing & Finance,Critical,Yes
+DEV-048,Change company name on invoice,Our company name changed. Please update it on future invoices.,Billing & Finance,Low,No
+DEV-049,Vendor invoice unpaid,Our vendor invoice for October is still unpaid after 45 days.,Billing & Finance,Medium,No
+DEV-050,Receipt not generated,I paid the fee but no receipt was generated.,Billing & Finance,Low,No

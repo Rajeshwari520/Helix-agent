@@ -1,0 +1,51 @@
+ticket_id,subject,body,category,priority,needs_escalation
+TST-001,Mouse not responding,My wireless mouse stopped responding even after changing the battery.,IT Support,Low,No
+TST-002,Internet down in office,The internet is down on the entire 2nd floor. No one can work.,IT Support,Critical,Yes
+TST-003,Install Postman,Kindly install Postman on my laptop for API testing.,IT Support,Low,No
+TST-004,Laptop won't boot,My laptop is stuck on the logo screen and won't start. I have a client call in 1 hour.,IT Support,High,No
+TST-005,Webcam not detected,Zoom says no camera found on my laptop.,IT Support,Medium,No
+TST-006,Fake email received,I got an email pretending to be from HR asking for my bank login. I did not click it.,IT Support,Critical,Yes
+TST-007,Disk space full,My C drive is full and the laptop is very slow.,IT Support,Medium,No
+TST-008,VPN keeps dropping,The VPN disconnects every 10 minutes when I work from home.,IT Support,Medium,No
+TST-009,Projector issue,The projector in the conference room is not displaying anything.,IT Support,Medium,No
+TST-010,Software licence expired,My Microsoft Office licence has expired and I cannot open Word files.,IT Support,High,No
+TST-011,Forgot portal password,I forgot the password for the trainee portal.,Access & Accounts,Medium,No
+TST-012,Jira project access,I need access to the Jira board for the Helix project.,Access & Accounts,Low,No
+TST-013,Account disabled,My account says disabled when I try to log in today.,Access & Accounts,High,No
+TST-014,New phone for MFA,I got a new phone. How do I move my authenticator to it?,Access & Accounts,Medium,No
+TST-015,Create login for consultant,Please create a temporary login for an external consultant starting Monday.,Access & Accounts,Medium,No
+TST-016,Someone used my account,There are emails in my sent folder that I never sent. I think someone has my password.,Access & Accounts,Critical,Yes
+TST-017,Admin rights request,I need admin rights on my laptop to install drivers.,Access & Accounts,Low,No
+TST-018,Shared mailbox access,Please add me to the support shared mailbox.,Access & Accounts,Low,No
+TST-019,SSO error,Single sign on fails with an error for the LMS.,Access & Accounts,High,No
+TST-020,Delete my profile,I am no longer a trainee. Please delete my profile and all my data.,Access & Accounts,High,Yes
+TST-021,Video lectures missing,The videos for week 5 of the DevOps course are missing.,Training & Courses,Medium,No
+TST-022,Certificate download,How do I download my course completion certificate?,Training & Courses,Low,No
+TST-023,Change course,Can I change from the Java course to the Python course?,Training & Courses,Low,No
+TST-024,Exam marks not published,The results of last week's assessment are not published yet.,Training & Courses,Medium,No
+TST-025,Lab session cancelled,Today's lab session was cancelled without notice and the whole batch is waiting.,Training & Courses,High,No
+TST-026,Course portal timing out,The course portal times out while submitting my project.,Training & Courses,High,No
+TST-027,Join next batch,When does the next AI/ML batch start?,Training & Courses,Low,No
+TST-028,Mentor session booking,How can I book a one-to-one mentor session?,Training & Courses,Low,No
+TST-029,Rude behaviour by trainer,The trainer shouted at a student in class. This is unacceptable.,Training & Courses,Medium,Yes
+TST-030,Course notes not uploaded,The trainer has not uploaded the notes for the last two classes.,Training & Courses,Medium,No
+TST-031,Salary credited less,This month's salary credited is less than expected.,HR & Admin,High,No
+TST-032,Leave approval pending,My sick leave request is still pending approval.,HR & Admin,Medium,No
+TST-033,Bonafide letter,I need a bonafide letter for my bank loan.,HR & Admin,Low,No
+TST-034,Lost access card,I lost my office access card.,HR & Admin,Low,No
+TST-035,Form 16,When will Form 16 be available for download?,HR & Admin,Low,No
+TST-036,Canteen complaint,The food in the canteen made several people sick today.,HR & Admin,High,No
+TST-037,Threat from colleague,A colleague threatened me after a meeting. I feel unsafe.,HR & Admin,Critical,Yes
+TST-038,Medical reimbursement,My medical bill reimbursement has been pending for a month.,HR & Admin,Medium,No
+TST-039,Desk change,Can I move my desk closer to my team?,HR & Admin,Low,No
+TST-040,Holiday calendar,Is 26th January a holiday this year?,HR & Admin,Low,No
+TST-041,Charged two times,My card was charged two times for the same course.,Billing & Finance,High,No
+TST-042,Fee receipt needed,Please email me the receipt for my course fee payment.,Billing & Finance,Low,No
+TST-043,Refund not credited,The refund for my withdrawn course has not been credited after 15 days.,Billing & Finance,Medium,No
+TST-044,UPI payment failed,UPI payment failed but my bank shows the amount debited.,Billing & Finance,High,No
+TST-045,Scholarship discount,Is there any scholarship or discount on the course fee?,Billing & Finance,Low,No
+TST-046,Duplicate invoice,We received the same invoice twice for one project.,Billing & Finance,Medium,No
+TST-047,Legal action on payment,If our dues are not cleared we will take legal action against KGIT.,Billing & Finance,Critical,Yes
+TST-048,Update GST number,Please update our GST number on all invoices.,Billing & Finance,Low,No
+TST-049,Payment reminder wrong,I got a payment reminder but I already paid the full fee.,Billing & Finance,Medium,No
+TST-050,Purchase order copy,Please share a copy of the purchase order for our records.,Billing & Finance,Low,No
