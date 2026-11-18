@@ -1,0 +1,1 @@
+{"threshold": 0.30, "reason": "Best precision/coverage trade-off on data/kgit/rag_eval.csv (KGIT helpdesk): precision 1.00, coverage 0.97, 0 wrong-FAQ answers. At 0.25 precision drops to 0.91; at 0.35 coverage drops to 0.90 (see docs/kgit/week3_rag_scorecard.json)"}

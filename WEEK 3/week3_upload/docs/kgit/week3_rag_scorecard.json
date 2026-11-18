@@ -1,0 +1,101 @@
+{
+  "domain": "kgit",
+  "corpus_version": "kb-kgit-24045059e242",
+  "retriever": "tfidf-cosine-v1",
+  "chosen_threshold": 0.3,
+  "metrics": {
+    "answer_precision": 1.0,
+    "answer_coverage": 0.968,
+    "escalation_recall": 1.0
+  },
+  "outcomes": {
+    "correct_answer": 30,
+    "correct_abstain": 13,
+    "correct_escalation": 6,
+    "missed_answer": 1
+  },
+  "threshold_sweep": [
+    {
+      "threshold": 0.1,
+      "answer_precision": 0.705,
+      "answer_coverage": 1.0,
+      "escalation_recall": 1.0,
+      "counts": {
+        "correct_answer": 31,
+        "answered_without_faq": 13,
+        "correct_escalation": 6
+      }
+    },
+    {
+      "threshold": 0.15,
+      "answer_precision": 0.721,
+      "answer_coverage": 1.0,
+      "escalation_recall": 1.0,
+      "counts": {
+        "correct_answer": 31,
+        "answered_without_faq": 12,
+        "correct_escalation": 6,
+        "correct_abstain": 1
+      }
+    },
+    {
+      "threshold": 0.2,
+      "answer_precision": 0.775,
+      "answer_coverage": 1.0,
+      "escalation_recall": 1.0,
+      "counts": {
+        "correct_answer": 31,
+        "answered_without_faq": 9,
+        "correct_escalation": 6,
+        "correct_abstain": 4
+      }
+    },
+    {
+      "threshold": 0.25,
+      "answer_precision": 0.909,
+      "answer_coverage": 0.968,
+      "escalation_recall": 1.0,
+      "counts": {
+        "correct_answer": 30,
+        "correct_abstain": 10,
+        "correct_escalation": 6,
+        "answered_without_faq": 3,
+        "missed_answer": 1
+      }
+    },
+    {
+      "threshold": 0.3,
+      "answer_precision": 1.0,
+      "answer_coverage": 0.968,
+      "escalation_recall": 1.0,
+      "counts": {
+        "correct_answer": 30,
+        "correct_abstain": 13,
+        "correct_escalation": 6,
+        "missed_answer": 1
+      }
+    },
+    {
+      "threshold": 0.35,
+      "answer_precision": 1.0,
+      "answer_coverage": 0.903,
+      "escalation_recall": 1.0,
+      "counts": {
+        "correct_answer": 28,
+        "correct_abstain": 13,
+        "correct_escalation": 6,
+        "missed_answer": 3
+      }
+    }
+  ],
+  "errors": [
+    {
+      "ticket_id": "TCK-0004",
+      "expected": "FAQ-004",
+      "status": "low_confidence",
+      "top_faq": "FAQ-004",
+      "score": 0.223,
+      "outcome": "missed_answer"
+    }
+  ]
+}
