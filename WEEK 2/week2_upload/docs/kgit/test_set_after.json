@@ -1,0 +1,11 @@
+{
+  "file": "data/kgit/test_tickets.csv",
+  "tickets": 50,
+  "category_accuracy": 0.96,
+  "priority_accuracy": 0.8,
+  "escalation_accuracy": 0.96,
+  "risky_tickets_caught": 1.0,
+  "all_three_correct": 0.76,
+  "category_correct_or_flagged": 0.98,
+  "flagged_for_review": 3
+}

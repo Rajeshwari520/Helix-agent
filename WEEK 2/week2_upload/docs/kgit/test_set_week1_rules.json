@@ -1,0 +1,7 @@
+{
+  "week1_rules_on_frozen_test": {
+    "category_accuracy": 0.76,
+    "priority_accuracy": 0.54,
+    "risky_tickets_caught": 0.286
+  }
+}

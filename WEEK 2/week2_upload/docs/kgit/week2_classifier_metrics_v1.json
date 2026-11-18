@@ -1,0 +1,153 @@
+{
+  "domain": "kgit",
+  "model_version": "tfidf-logreg-v1",
+  "train_size": 300,
+  "test_size": 50,
+  "cv_macro_f1_mean": 1.0,
+  "cv_macro_f1_std": 0.0,
+  "test_accuracy": 0.78,
+  "test_macro_f1": 0.78,
+  "per_class": {
+    "Access & Accounts": {
+      "precision": 0.8,
+      "recall": 0.8,
+      "f1-score": 0.8,
+      "support": 10.0
+    },
+    "Billing & Finance": {
+      "precision": 0.818,
+      "recall": 0.9,
+      "f1-score": 0.857,
+      "support": 10.0
+    },
+    "HR & Admin": {
+      "precision": 0.875,
+      "recall": 0.7,
+      "f1-score": 0.778,
+      "support": 10.0
+    },
+    "IT Support": {
+      "precision": 0.667,
+      "recall": 0.8,
+      "f1-score": 0.727,
+      "support": 10.0
+    },
+    "Training & Courses": {
+      "precision": 0.778,
+      "recall": 0.7,
+      "f1-score": 0.737,
+      "support": 10.0
+    }
+  },
+  "confidence_thresholds": {
+    "0.3": {
+      "flagged_for_review_pct": 0.0,
+      "accuracy_on_kept": 0.78,
+      "wrong_but_not_flagged": 11
+    },
+    "0.35": {
+      "flagged_for_review_pct": 0.06,
+      "accuracy_on_kept": 0.809,
+      "wrong_but_not_flagged": 9
+    },
+    "0.4": {
+      "flagged_for_review_pct": 0.12,
+      "accuracy_on_kept": 0.818,
+      "wrong_but_not_flagged": 8
+    },
+    "0.45": {
+      "flagged_for_review_pct": 0.16,
+      "accuracy_on_kept": 0.81,
+      "wrong_but_not_flagged": 8
+    },
+    "0.5": {
+      "flagged_for_review_pct": 0.28,
+      "accuracy_on_kept": 0.861,
+      "wrong_but_not_flagged": 5
+    },
+    "0.6": {
+      "flagged_for_review_pct": 0.46,
+      "accuracy_on_kept": 0.963,
+      "wrong_but_not_flagged": 1
+    }
+  },
+  "misclassified": [
+    {
+      "ticket_id": "TCK-0001",
+      "subject": "VPN down for whole team",
+      "category": "IT Support",
+      "pred": "Access & Accounts",
+      "confidence": 0.527
+    },
+    {
+      "ticket_id": "TCK-0009",
+      "subject": "Need a second monitor",
+      "category": "IT Support",
+      "pred": "Access & Accounts",
+      "confidence": 0.535
+    },
+    {
+      "ticket_id": "TCK-0015",
+      "subject": "Lost phone with authenticator",
+      "category": "Access & Accounts",
+      "pred": "IT Support",
+      "confidence": 0.495
+    },
+    {
+      "ticket_id": "TCK-0020",
+      "subject": "Delete my data",
+      "category": "Access & Accounts",
+      "pred": "Training & Courses",
+      "confidence": 0.307
+    },
+    {
+      "ticket_id": "TCK-0024",
+      "subject": "Exam portal not opening",
+      "category": "Training & Courses",
+      "pred": "IT Support",
+      "confidence": 0.558
+    },
+    {
+      "ticket_id": "TCK-0025",
+      "subject": "Need course slides",
+      "category": "Training & Courses",
+      "pred": "Billing & Finance",
+      "confidence": 0.313
+    },
+    {
+      "ticket_id": "TCK-0027",
+      "subject": "Marks shown wrong",
+      "category": "Training & Courses",
+      "pred": "HR & Admin",
+      "confidence": 0.475
+    },
+    {
+      "ticket_id": "TCK-0036",
+      "subject": "AC not working",
+      "category": "HR & Admin",
+      "pred": "IT Support",
+      "confidence": 0.733
+    },
+    {
+      "ticket_id": "TCK-0037",
+      "subject": "Harassment complaint",
+      "category": "HR & Admin",
+      "pred": "Training & Courses",
+      "confidence": 0.383
+    },
+    {
+      "ticket_id": "TCK-0039",
+      "subject": "Reimbursement pending",
+      "category": "HR & Admin",
+      "pred": "Billing & Finance",
+      "confidence": 0.462
+    },
+    {
+      "ticket_id": "TCK-0048",
+      "subject": "Unknown charge",
+      "category": "Billing & Finance",
+      "pred": "IT Support",
+      "confidence": 0.51
+    }
+  ]
+}

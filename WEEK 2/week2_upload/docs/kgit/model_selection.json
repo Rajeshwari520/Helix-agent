@@ -1,0 +1,94 @@
+{
+  "handwritten_tickets": 100,
+  "template_tickets": 450,
+  "handwritten_weight": 3,
+  "candidates": {
+    "logreg_C10 (current)": {
+      "cv_accuracy_on_handwritten": 0.95
+    },
+    "logreg_C3": {
+      "cv_accuracy_on_handwritten": 0.95
+    },
+    "logreg_C30": {
+      "cv_accuracy_on_handwritten": 0.94
+    },
+    "linear_svm_calibrated": {
+      "cv_accuracy_on_handwritten": 0.96
+    },
+    "complement_nb": {
+      "cv_accuracy_on_handwritten": 0.92
+    }
+  },
+  "best": "linear_svm_calibrated",
+  "threshold_analysis_best_model_out_of_fold": {
+    "0.3": {
+      "flagged_pct": 0.0,
+      "accuracy_on_rest": 0.96,
+      "wrong_not_flagged": 4
+    },
+    "0.35": {
+      "flagged_pct": 0.0,
+      "accuracy_on_rest": 0.96,
+      "wrong_not_flagged": 4
+    },
+    "0.4": {
+      "flagged_pct": 0.0,
+      "accuracy_on_rest": 0.96,
+      "wrong_not_flagged": 4
+    },
+    "0.45": {
+      "flagged_pct": 0.02,
+      "accuracy_on_rest": 0.959,
+      "wrong_not_flagged": 4
+    },
+    "0.5": {
+      "flagged_pct": 0.04,
+      "accuracy_on_rest": 0.969,
+      "wrong_not_flagged": 3
+    },
+    "0.55": {
+      "flagged_pct": 0.08,
+      "accuracy_on_rest": 0.978,
+      "wrong_not_flagged": 2
+    },
+    "0.6": {
+      "flagged_pct": 0.14,
+      "accuracy_on_rest": 0.988,
+      "wrong_not_flagged": 1
+    }
+  },
+  "chosen": "logreg_C10 (current)",
+  "chosen_reason": "Same CV accuracy as the best candidate within 1 ticket (0.95 vs 0.96); simpler and explainable",
+  "threshold_analysis_chosen_model_out_of_fold": {
+    "0.35": {
+      "flagged_pct": 0.01,
+      "accuracy_on_rest": 0.96,
+      "wrong_not_flagged": 4
+    },
+    "0.4": {
+      "flagged_pct": 0.05,
+      "accuracy_on_rest": 0.979,
+      "wrong_not_flagged": 2
+    },
+    "0.45": {
+      "flagged_pct": 0.09,
+      "accuracy_on_rest": 0.989,
+      "wrong_not_flagged": 1
+    },
+    "0.5": {
+      "flagged_pct": 0.12,
+      "accuracy_on_rest": 0.989,
+      "wrong_not_flagged": 1
+    },
+    "0.55": {
+      "flagged_pct": 0.16,
+      "accuracy_on_rest": 1.0,
+      "wrong_not_flagged": 0
+    },
+    "0.6": {
+      "flagged_pct": 0.18,
+      "accuracy_on_rest": 1.0,
+      "wrong_not_flagged": 0
+    }
+  }
+}

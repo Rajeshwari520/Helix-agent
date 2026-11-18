@@ -1,0 +1,18 @@
+# PostgreSQL for Helix Agent (local development)
+# Start:  docker compose up -d
+# Stop:   docker compose down          (add -v to delete the data)
+services:
+  postgres:
+    image: postgres:16
+    container_name: helix-postgres
+    environment:
+      POSTGRES_USER: helix
+      POSTGRES_PASSWORD: helix          # local development only - never use in production
+      POSTGRES_DB: helix_kgit
+    ports:
+      - "5432:5432"
+    volumes:
+      - helix_pgdata:/var/lib/postgresql/data
+      - ./scripts/init_databases.sql:/docker-entrypoint-initdb.d/init_databases.sql:ro
+volumes:
+  helix_pgdata:

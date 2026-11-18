@@ -1,0 +1,93 @@
+{
+  "domain": "kgit",
+  "model_version": "tfidf-logreg-v1",
+  "train_size": 750,
+  "test_size": 50,
+  "test_file": "test_tickets.csv (frozen, sha256 in data/kgit/test_set_frozen.sha256)",
+  "cv_macro_f1_mean": 0.996,
+  "cv_macro_f1_std": 0.005,
+  "test_accuracy": 0.96,
+  "test_macro_f1": 0.961,
+  "per_class": {
+    "Access & Accounts": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "Billing & Finance": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 10.0
+    },
+    "HR & Admin": {
+      "precision": 0.833,
+      "recall": 1.0,
+      "f1-score": 0.909,
+      "support": 10.0
+    },
+    "IT Support": {
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1-score": 0.947,
+      "support": 10.0
+    },
+    "Training & Courses": {
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1-score": 0.947,
+      "support": 10.0
+    }
+  },
+  "confidence_thresholds": {
+    "0.3": {
+      "flagged_for_review_pct": 0.0,
+      "accuracy_on_kept": 0.96,
+      "wrong_but_not_flagged": 2
+    },
+    "0.35": {
+      "flagged_for_review_pct": 0.04,
+      "accuracy_on_kept": 0.958,
+      "wrong_but_not_flagged": 2
+    },
+    "0.4": {
+      "flagged_for_review_pct": 0.06,
+      "accuracy_on_kept": 0.979,
+      "wrong_but_not_flagged": 1
+    },
+    "0.45": {
+      "flagged_for_review_pct": 0.06,
+      "accuracy_on_kept": 0.979,
+      "wrong_but_not_flagged": 1
+    },
+    "0.5": {
+      "flagged_for_review_pct": 0.08,
+      "accuracy_on_kept": 0.978,
+      "wrong_but_not_flagged": 1
+    },
+    "0.6": {
+      "flagged_for_review_pct": 0.12,
+      "accuracy_on_kept": 1.0,
+      "wrong_but_not_flagged": 0
+    }
+  },
+  "misclassified": [
+    {
+      "ticket_id": "TST-006",
+      "subject": "Fake email received",
+      "category": "IT Support",
+      "pred": "HR & Admin",
+      "confidence": 0.388
+    },
+    {
+      "ticket_id": "TST-022",
+      "subject": "Certificate download",
+      "category": "Training & Courses",
+      "pred": "HR & Admin",
+      "confidence": 0.512
+    }
+  ],
+  "rule_baseline_accuracy_on_these_50": 0.98,
+  "rule_baseline_accuracy_on_unseen_wording": 0.689
+}

@@ -1,0 +1,44 @@
+{
+  "domain": "kgit",
+  "priority_accuracy": 0.92,
+  "priority_macro_f1": 0.921,
+  "escalation_accuracy": 0.98,
+  "escalation_recall": 1.0,
+  "escalation_precision": 0.889,
+  "flagged_for_human_review": 10,
+  "median_latency_ms": 1.5,
+  "priority_errors": [
+    {
+      "ticket": "TCK-0005",
+      "subject": "Printer not working",
+      "expected": "Low",
+      "predicted": "Medium"
+    },
+    {
+      "ticket": "TCK-0008",
+      "subject": "Laptop blue screen",
+      "expected": "High",
+      "predicted": "Critical"
+    },
+    {
+      "ticket": "TCK-0014",
+      "subject": "New joiner access",
+      "expected": "Medium",
+      "predicted": "Low"
+    },
+    {
+      "ticket": "TCK-0036",
+      "subject": "AC not working",
+      "expected": "Low",
+      "predicted": "Medium"
+    }
+  ],
+  "escalation_errors": [
+    {
+      "ticket": "TCK-0008",
+      "subject": "Laptop blue screen",
+      "expected": "No",
+      "predicted": "Yes"
+    }
+  ]
+}
